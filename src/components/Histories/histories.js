@@ -230,14 +230,14 @@ const Histories = () => {
   keywords: ['op insane', 'insane', 'insane ff', 'insane free fire', 'op insane ff', 'insane yt', 'pakistan'],
   channelId: 'UCR38cbwjR0q8vnc0TI6GCUQ'
 },
-// {
-//   id: 20,
-//   name: '',
-//   image: '',
-//   initialText: ``,
-//   extraText: ``,
-//   keywords: ['', '', '', '', '', '', ''],
-// },
+ {
+   id: 23,
+   name: 'Semox FF',
+   image: 'https://yt3.googleusercontent.com/x4EmvgRD1FQuywTj2yfx48m15OhaQVZSfrF876dcH6GT_5yFkA5yoCp5B5bGluGA-eGWwDzZ=s160-c-k-c0x00ffffff-no-rj',
+   initialText: `Semox An Esports Player`,
+   extraText: `Semox is from India and plays esport from the team named as Zero Mercy`,
+   keywords: ['', '', '', '', '', '', ''],
+ },
 // {
 //   id: 20,
 //   name: '',
