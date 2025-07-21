@@ -10,8 +10,8 @@ const Histories = () => {
   id: 1,
   name: 'RUOK',
   image: 'https://i.pinimg.com/736x/a8/36/7b/a8367b8e7b6b4c20f0225fb9adb39bce.jpg',
-  initialText: `~~RUOK FF~~ is a popular Free Fire player...`,
-  extraText: `He has a strong presence on YouTube...`,
+  initialText: `~~RUOK FF~~ is a popular Free Fire player. In 2020, ~~RUOK~~ was very dangerous that people called him ~~Hacker~~`,
+  extraText: `He has a strong presence on YouTube Having 10 million subscribers on ~~Youtube~~`,
   keywords: ['ruokff', 'ruok', 'ru ok', 'ruok ff'],
   channelId: 'UC9FL0_4gUAQJLVmlExjx1Xw',  // <-- COMMA here!
     // no comma if this is last property
