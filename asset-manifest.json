@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/noo/static/css/main.e7002fc5.css",
+    "main.js": "/noo/static/js/main.95ab9ff3.js",
+    "static/js/488.863bfd49.chunk.js": "/noo/static/js/488.863bfd49.chunk.js",
+    "index.html": "/noo/index.html",
+    "main.e7002fc5.css.map": "/noo/static/css/main.e7002fc5.css.map",
+    "main.95ab9ff3.js.map": "/noo/static/js/main.95ab9ff3.js.map",
+    "488.863bfd49.chunk.js.map": "/noo/static/js/488.863bfd49.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e7002fc5.css",
+    "static/js/main.95ab9ff3.js"
+  ]
+}
