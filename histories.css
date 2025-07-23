@@ -1,0 +1,133 @@
+/* Base styles for body and container */
+body, .history-column-container {
+  background: #181818;
+  color: #e0e0e0;
+  font-family: 'Segoe UI', 'Roboto', Arial, sans-serif;
+}
+
+/* Container for column layout */
+.history-column-container {
+  background: #222;
+  border-radius: 12px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.7);
+  padding: 32px 16px;
+  margin: 32px auto;
+  max-width: 900px;
+}
+
+/* Search box styles */
+.search-box {
+  background: #23272a;
+  color: #e0e0e0;
+  border: 1px solid #444;
+  border-radius: 8px;
+  padding: 10px 16px;
+  font-size: 1.1rem;
+  margin-bottom: 24px;
+  width: 90%;
+  max-width: 500px;
+  transition: border 0.2s;
+}
+
+.search-box:focus {
+  border: 1.5px solid #00bcd4;
+  outline: none;
+}
+
+/* Card design */
+.history-card {
+  background: #23272a;
+  border-radius: 10px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.5);
+  margin-bottom: 24px;
+  padding: 24px 18px;
+  transition: box-shadow 0.2s;
+  border: 1px solid #333;
+  text-align: center;
+}
+
+.history-card:hover {
+  box-shadow: 0 6px 24px rgba(0,0,0,0.7);
+  border: 1.5px solid #00bcd4;
+}
+
+/* History item styles */
+.history-name {
+  color: #00bcd4;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.history-image {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #00bcd4;
+  margin-bottom: 16px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.6);
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.history-image:hover {
+  transform: scale(1.08);
+}
+
+.history-text {
+  color: #e0e0e0;
+  font-size: 1.08rem;
+  margin-bottom: 12px;
+  background: #23272a;
+  border-radius: 10px;
+  padding: 14px;
+  text-align: left;
+  border: 1px solid #333;
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+/* Button styles */
+.toggle-button, .details-button, button {
+  background: linear-gradient(90deg, #00bcd4 0%, #673ab7 100%);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 18px;
+  font-size: 1rem;
+  margin-top: 10px;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.4);
+  transition: background 0.2s, box-shadow 0.2s;
+}
+
+.toggle-button:hover, .details-button:hover, button:hover {
+  background: linear-gradient(90deg, #673ab7 0%, #00bcd4 100%);
+  box-shadow: 0 4px 16px rgba(0,0,0,0.6);
+}
+
+/* Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+iframe {
+  background: #23272a;
+  border-radius: 8px;
+  margin-top: 10px;
+  border: 1px solid #333;
+}
+
+p {
+  color: #b0b0b0;
+}
