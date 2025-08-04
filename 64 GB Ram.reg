@@ -1,0 +1,5 @@
+Windows Registry Editor Version 5.00
+
+; Disable Paging Executive for 64 GB RAM
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management]
+"DisablePagingExecutive"=dword:00000001
